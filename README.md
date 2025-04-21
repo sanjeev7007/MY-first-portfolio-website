@@ -37,7 +37,7 @@ This is my first self-designed and coded portfolio created to showcase my skills
 
 If you’d like to collaborate, give feedback, or just connect, feel free to reach out:
 
-- 💼 LinkedIn: [Sanjeev S T](www.linkedin.com/in/sanjeev-s-t-24491931a)
+- 💼 LinkedIn: [Sanjeev S T](https://www.linkedin.com/in/sanjeev-s-t)
 - 📧 Email: sanjeevst.07@gmail.com
 
 ---
