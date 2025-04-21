@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ST</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight">Sanjeev S T</span></h1>
+                    <p class="subtitle">An Artificial Intelligence & Data Science student with a passion for web design.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Sanjeev S T">
+                    </div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement -->
+        <section id="achievements" class="highlights">
+            <div class="container">
+                <h2>Achievement Highlights</h2>
+                <div class="achievement-cards">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Hackathon Participation</h3>
+                        <p>Health Hackathon at VIT Bhopal</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Idea Presentation</h3>
+                        <p>Won 1st prize at Sona College of Technology</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Design </h3>
+                        <p>Created more than 20 websites Frontend</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About-->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm a passionate student pursuing a degree in Artificial Intelligence and Data Science. My journey in tech began when I discovered how data can transform our understanding of the world, and I've been hooked ever since.</p>
+                    <p>I chose AI & Data Science because I believe these technologies are shaping our future in profound ways. The ability to analyze complex data patterns and extract meaningful insights fascinates me, and I'm eager to contribute to this growing field.</p>
+                    <p>Alongside my technical studies, I've developed a keen interest in web design. I enjoy creating user-centric interfaces that are both functional and aesthetically pleasing. The intersection of data science and design is where I find my creative spark!</p>
+                    <h3>Currently Learning:</h3>
+                    <ul>
+                        <li>Advanced Python for Data Analysis</li>
+                        <li>Machine Learning Algorithms</li>
+                        <li>Front-end Development (HTML, CSS, JS)</li>
+                        <li>UI/UX Design with Figma</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/about1.jpg" alt="About Me">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects & Achievements</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/foodscan.png" alt="NutriScan AI">
+                        </div>
+                        <div class="project-content">
+                            <h3>NutriScan AI</h3>
+                            <p class="project-tag">Health Hackathon at  VIT Bhopal</p>
+                            <p>Developed an AI-powered application that scans packaged food barcodes to assess health risks based on ingredients and nutritional data. Trained using the OpenFoodFacts dataset, the system predicts long-term health impacts from regular consumption and suggests healthier alternatives in real time—empowering users to make informed dietary choices.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>html</span>
+                                <span>css</span>
+                                <span>javascript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images/project physio.jpg" alt="EcoSmart">
+                        </div>
+                        <div class="project-content">
+                            <h3>PhysioTrack</h3>
+                            <p class="project-tag">Physiotherapy Exercise Tracking Website</p>
+                            <p>Developed a web-based physiotherapy assistant that uses MediaPipe for real-time pose detection to monitor and track user movements during exercises. The system provides instant feedback on posture accuracy and counts reps automatically, ensuring proper form and consistency for rehabilitation routines. Designed for accessibility and ease of use in home-based physiotherapy sessions.</p>
+                            <div class="project-tech">    
+                                <span>python</span>
+                                <span> Flask</span>
+                                <span>JavaScript</span>
+                                <span>mediapipe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/PROJECT WEB.jpg" alt="StudyBuddy">
+                        </div>
+                        <div class="project-content">
+                            <h3>AuraCart</h3>
+                            <p class="project-tag">Web Design </p>
+                            <p>Designed and developed a visually appealing e-commerce website frontend with an engaging user interface. Focused on modern color schemes, interactive animations, and responsive design to enhance user experience. Implemented dynamic behaviors and user interactions using JavaScript to create a smooth, intuitive shopping experience.</p>
+                            <div class="project-tech">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                                <div class="skill-info">
+                                    <h4>Python</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <div class="skill-info">
+                                    <h4>HTML</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>CSS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Science</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                                <div class="skill-info">
+                                    <h4>Machine Learning</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="skill-info">
+                                    <h4>Data Analysis</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                                <div class="skill-info">
+                                    <h4>Figma</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                                <div class="skill-info">
+                                    <h4>UI/UX Design</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>Feel free to reach out if you're looking for a collaborator on a project, have a job opportunity, or just want to say hello!</p>
+                        <div class="contact-links">
+                            <a href="mailto:sanjeevst.07@gmail.com" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>sanjeevst.07@gmail.com</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sanjeev-s-t-24491931a/" target="_blank" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>linkedin.com/in/Sanjeev</span>
+                            </a>
+                            <a href="https://github.com/sanjeev7007" target="_blank" class="contact-link">
+                                <i class="fab fa-github"></i>
+                                <span>github.com/sanjeev7007</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/sanjeevst.07@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                            <input type="hidden" name="_autoresponse" value="Thank you for contacting me! I’ll get back to you shortly.">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>                       
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>                    
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>              
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>                     
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sanjeev S T. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sanjeev-s-t-24491931a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sanjeev7007" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sanjeevst.07@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
